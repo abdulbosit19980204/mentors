@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tutor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/index.css'>
+    <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+    <script src="CSS/js/bootstrap.min.js"></script>
+    <script src='Js/validation.js'></script>
+    <link rel="shortcut icon" href="img/Checked User Male_96px.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#offcanvas" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample">
+                <img src="img/download.png" class="top_logo" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Bosh sahifa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offcanvas_faculity" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample">Fakultetlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offcanvas_tutors" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvas_tutors" tabindex="-1">Tutorlar</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Qidirish uchun kiriting" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Qidirish </button>
+                    <!-- <img src="img/Search_48px.png" alt=""> -->
+                </form>
+                <a href="registerpage.html" class="mx-3 my-3">
+                    <img src="img/Lock_52px.png" alt="Saytdan chiqish">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel" data-bs-backdrop="true" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasLabel">
+                    <a href="">
+                        <img src="img/download.png" class="top_logo" alt=""> <span> <h3 class="lead">Tuychiyev Abdulbosit</h3></span>
+                    </a>
+
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h4>Guruhlar</h4>
+
+                <h6 class="img-thumbnail mb-3 mt-3 btn-primary">Birinchi kurslar</h6>
+                <a href="" class="btn btn-outline-success mb-2 active">37-21</a>
+                <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                <h6 class="img-thumbnail mb-3 mt-3 btn-primary">Ikkinchi kurslar</h6>
+
+                <a href="" class="btn btn-outline-success mb-2">16-20</a>
+                <a href="" class="btn btn-outline-warning mb-2">18-20</a>
+                <a href="" class="btn btn-outline-success mb-2">36-20</a>
+                <a href="" class="btn btn-outline-warning mb-2">08-20</a>
+
+                <h6 class="img-thumbnail mb-3 mt-3 btn-primary">Uchunchi kurslar</h6>
+                <a href="" class="btn btn-outline-success mb-2">36-19</a>
+                <a href="" class="btn btn-outline-warning mb-2">38-19</a>
+                <a href="" class="btn btn-outline-success mb-2">24-19</a>
+                <a href="" class="btn btn-outline-warning mb-2">45-19</a>
+                <a href="" class="btn btn-outline-success mb-2">46-19</a>
+                <a href="" class="btn btn-outline-warning mb-2">47-19</a>
+                <a href="" class="btn btn-outline-success mb-2">95-19</a>
+                <a href="" class="btn btn-outline-warning mb-2">109-19</a>
+
+                <h6 class="img-thumbnail mb-3 mt-3 btn-primary">To'rtinchi kurslar</h6>
+                <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+            </div>
+        </div>
+        <div>
+            <br>
+            <br>
+        </div>
+
+
+        <div class="container" id="tutorlar">
+            <h6 class="btn btn-primary col-12 mb-5 mt-5">37-21 guruh talabalari</h6>
+            <table class="table mb-5 table table-striped table-bordered">
+                <thead>
+                    <tr class="table-primary">
+                        <th scope="col">#</th>
+                        <th scope="col">Ism</th>
+                        <th scope="col">Familiya</th>
+                        <th scope="col">Yoshi</th>
+                        <th scope="col">Fakultet</th>
+                        <th scope="col">Tel:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Shokir</td>
+                        <td>Salimov</td>
+                        <td>23</td>
+                        <td>Agrobiologiya</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Sarvar</td>
+                        <td>Tojiev</td>
+                        <td>24</td>
+                        <td>Agrobiznes</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">13</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">14</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15</th>
+                        <td colspan="1">Nuriddin</td>
+                        <td>Kosimov</td>
+                        <td>31</td>
+                        <td>Qishloq xo'jaligi maxsulotlarini saqlash va qayta ishlash</td>
+                        <td>99 999 11 22</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+
+
+        <div class="offcanvas offcanvas-end  " tabindex="-1" id="offcanvas_faculity" aria-labelledby="offcanvas_faculity_Label" data-bs-backdrop="true" data-bs-toggle="offcanvas_faculity" data-bs-target="#offcanvas_faculity">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvas_faculity_Label">
+                    <h3 class="lead">Fakultetlar</h3>
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="col-12">
+                    <div class="accordion" id="faculity_accordion">
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="faculity__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faculity_agrobiznes">
+                                    <span class="mx-2"> Agrobiznes </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="faculity_agrobiznes" data-bs-parent="#faculity_accordion">
+                                <div class="accordion-body">
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="faculity__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faculity_agrobiologiya">
+                                    <span class="mx-2"> Agrobiologiya </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="faculity_agrobiologiya" data-bs-parent="#faculity_accordion">
+                                <div class="accordion-body">
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="faculity__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faculity_QXMS">
+                                    <span class="mx-2"> Qishloq Xo'jaligi maxsulotlarini qayta ishlash va saqlash </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="faculity_QXMS" data-bs-parent="#faculity_accordion">
+                                <div class="accordion-body">
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="faculity__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faculity_gidromelioratsiya">
+                                    <span class="mx-2"> Gidromelioratsiya </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="faculity_gidromelioratsiya" data-bs-parent="#faculity_accordion">
+                                <div class="accordion-body">
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="faculity__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faculity_sirtqi">
+                                    <span class="mx-2"> Sirtqi </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="faculity_sirtqi" data-bs-parent="#faculity_accordion">
+                                <div class="accordion-body">
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="faculity__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faculity_qoshma">
+                                    <span class="mx-2"> Qo'shma Fakultet </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="faculity_qoshma" data-bs-parent="#faculity_accordion">
+                                <div class="accordion-body">
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end  " tabindex="-1" id="offcanvas_tutors" aria-labelledby="offcanvas_tutors_Label" data-bs-backdrop="true" data-bs-toggle="offcanvas_tutors" data-bs-target="#offcanvas_tutors">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvas_tutors_Label">
+                    <h3 class="lead">Tuyutorlar</h3>
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="col-12">
+                    <div class="accordion" id="tutors_accordion">
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="tutors__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#tutors_agrobiznes">
+                                    <span class="mx-2"> Agrobiznes </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="tutors_agrobiznes" data-bs-parent="#tutors_accordion">
+                                <div class="accordion-body">
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_online" src="img/walking.jpg" alt="">
+                                        <span class="online"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>              
+                                    </button>
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_online" src="img/walking.jpg" alt="">
+                                        <span class="online"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>              
+                                    </button>
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_online" src="img/walking.jpg" alt="">
+                                        <span class="online"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>              
+                                    </button>
+                                    <!-- <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="tutors__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#tutors_agrobiologiya">
+                                    <span class="mx-2"> Agrobiologiya </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="tutors_agrobiologiya" data-bs-parent="#tutors_accordion">
+                                <div class="accordion-body">
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse2" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_recently" src="img/download.png" alt="">
+                                        <span class="recently"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>  
+                                       <span class="badge bg-warning text-dark">9</span>            
+                                    </button>
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_online" src="img/walking.jpg" alt="">
+                                        <span class="online"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>              
+                                    </button>
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse2" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_recently" src="img/download.png" alt="">
+                                        <span class="recently"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>  
+                                       <span class="badge bg-warning text-dark">9</span>            
+                                    </button>
+
+
+                                    <!-- <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="tutors__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#tutors_QXMS">
+                                    <span class="mx-2"> Qishloq Xo'jaligi maxsulotlarini qayta ishlash va saqlash </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="tutors_QXMS" data-bs-parent="#tutors_accordion">
+                                <div class="accordion-body">
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse4" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_recently" src="img/walking.jpg" alt="">
+                                        <span class="recently"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>
+                                       <span class="badge bg-success">4</span>
+                                       <p class="form-text mx-5">1/5/2022</p> 
+                                      </button>
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse4" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_recently" src="img/walking.jpg" alt="">
+                                        <span class="recently"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>
+                                       <span class="badge bg-success">4</span>
+                                       <p class="form-text mx-5">1/5/2022</p> 
+                                      </button>
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse4" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_recently" src="img/walking.jpg" alt="">
+                                        <span class="recently"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>
+                                       <span class="badge bg-success">4</span>
+                                       <p class="form-text mx-5">1/5/2022</p> 
+                                      </button>
+
+                                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mycollapse4" aria-expanded="false">
+                                        <img class="img-fluid accordion__button-img_recently" src="img/walking.jpg" alt="">
+                                        <span class="recently"></span>
+                                       <span class="mx-2"> Abdulbosit Tuychiyev </span>
+                                       <span class="badge bg-success">4</span>
+                                       <p class="form-text mx-5">1/5/2022</p> 
+                                      </button>
+
+                                    <!-- <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="tutors__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#tutors_gidromelioratsiya">
+                                    <span class="mx-2"> Gidromelioratsiya </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="tutors_gidromelioratsiya" data-bs-parent="#tutors_accordion">
+                                <div class="accordion-body">
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="tutors__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#tutors_sirtqi">
+                                    <span class="mx-2"> Sirtqi </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="tutors_sirtqi" data-bs-parent="#tutors_accordion">
+                                <div class="accordion-body">
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="tutors__accordion_header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#tutors_qoshma">
+                                    <span class="mx-2"> Qo'shma Fakultet </span>              
+                                </button>
+                            </h5>
+                            <div class="accordion-collapse collapse" id="tutors_qoshma" data-bs-parent="#tutors_accordion">
+                                <div class="accordion-body">
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                    <a href="" class="btn btn-outline-success mb-2">36-21</a>
+                                    <a href="" class="btn btn-outline-warning mb-2">38-21</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
