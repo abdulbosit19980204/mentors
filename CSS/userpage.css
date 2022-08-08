@@ -1,0 +1,78 @@
+.top_logo {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.png__logo_nav {
+    width: 15rem;
+    /* height: 1rem; */
+    margin-left: 50px;
+}
+
+.imagewidth {
+    width: 100px;
+    height: 100px;
+}
+
+.accordion__button-img_online {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid green;
+}
+
+.accordion__button-img_offline {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.accordion__button-img_recently {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid rgb(224, 147, 4);
+}
+
+.online {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid green;
+    /* text-align:  center; */
+    display: flex;
+    position: relative;
+    left: -10px;
+    top: -15px;
+}
+
+.offline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid red;
+    /* text-align:  center; */
+    display: flex;
+    position: relative;
+    left: -10px;
+    top: -15px;
+}
+
+.recently {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid rgb(224, 147, 4);
+    /* text-align:  center; */
+    display: flex;
+    position: relative;
+    left: -10px;
+    top: -15px;
+}

@@ -1,0 +1,57 @@
+<html ng-app="ionicApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>My Slide Box</title>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link href="//code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    <script src="//code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+    <link rel="stylesheet" href="CSS/btnslider.css">
+    <script src="Js/btnslider.js"></script>
+
+</head>
+
+<body ng-controller="MenuCtrl">
+
+    <ion-header-bar class="bar-stable">
+        <h1 class="title">My Slide Box</h1>
+    </ion-header-bar>
+
+    <ion-content class="padding">
+
+        <ion-slide-box show-pager="false" on-slide-changed="slideHasChanged($index)">
+
+            <ion-slide>
+                <h1 class="slide-title"> Colleagues </h1>
+                <img src="img/Agro-Gidro.png" alt="">
+            </ion-slide>
+
+            <ion-slide>
+                <h1 class="slide-title"> Jobs </h1>
+            </ion-slide>
+
+            <ion-slide>
+                <h1 class="slide-title"> Event map </h1>
+            </ion-slide>
+
+            <ion-slide>
+                <h1 class="slide-title"> Conversations </h1>
+            </ion-slide>
+
+        </ion-slide-box>
+
+    </ion-content>
+
+    <div class="contacts-filters felix-filters button-bar">
+        <a class="button button-stable" ng-class="{active: selected=='m'}" ng-click="slide(0); selected='m'"><i class="icon ion-ios-people"></i></a>
+        <a class="button button-stable" ng-class="{active: selected=='j'}" ng-click="slide(1); selected='j'"><i class="icon ion-briefcase"></i></a>
+        <a class="button button-stable" ng-class="{active: selected=='e'}" ng-click="slide(2); selected='e'"><i class="icon ion-android-map"></i></a>
+        <a class="button button-stable" ng-class="{active: selected=='c'}" ng-click="slide(3); selected='c'"><i class="icon ion-chatbubbles"></i></a>
+    </div>
+
+</body>
+
+</html>

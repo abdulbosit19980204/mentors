@@ -1,0 +1,33 @@
+ .swiper {
+     width: 300px;
+     height: 350px;
+     /* position: absolute;
+     left: 10%;
+     top: 90%; */
+     /* margin-left: 50px; */
+     /* margin-top: 150px; */
+     /* margin-bottom: 500px; */
+     box-sizing: border-box;
+     /* position: relative; */
+ }
+ 
+ .swiper-slide {
+     background-position: center;
+     background-size: cover;
+     box-sizing: border-box;
+     justify-content: center;
+ }
+ /* .swiper-slide img {
+     display: block;
+     width: 100%;
+ } */
+ /* .marginswipper {
+     margin-left: 100px;
+ } */
+ /* .marginswipper2 {
+     margin-left: 350px;
+ } */
+ 
+ .margincn {
+     margin: 0 auto;
+ }

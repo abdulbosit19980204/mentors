@@ -1,0 +1,23 @@
+.tutorbackground {
+    background-image: url(//cdn.tutors.com/assets/images/bg/desktop/language-tutor.jpg);
+    opacity: .4;
+    height: 800px;
+    width: 1000px;
+}
+
+.with_background {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: all .4s;
+    -o-transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    opacity: 0;
+}

@@ -1,0 +1,45 @@
+.felix-subheader {
+    background-color: #444 !important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+.felix-subheader>h2 {
+    margin: 0 !important;
+}
+
+.felix-filters {}
+
+.felix-filters>.button {
+    padding: 10px 0 0 0;
+}
+
+.felix-filters>.button>img {
+    height: 30px;
+    width: 40px;
+}
+
+.felix-filters>.button>.fa {
+    font-size: 30px;
+}
+
+.slide-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #ed9a30;
+    border-bottom: 1px solid #ed9a30;
+}
+
+.contacts-filters {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.contacts-filters>.button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    border-radius: 0 !important;
+}
