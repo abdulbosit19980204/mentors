@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/test.css">
+    <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/swiper.css">
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+    <script src="CSS/js/bootstrap.min.js"></script>
+    <script src='Js/validation.js'></script>
+    <script src="Js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="Js/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="blackbk">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#offcanvas" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample">
+                        <img src="img/logo.png" class="png__logo_nav img-fluid " alt="">
+                        <!-- <img src="img/logo.jpg" class="top_logo img-fluid" alt=""> -->
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- <h4>Tutorlar sahifasiga xush kelibsiz</h4> -->
+                        <a href="registerpage.html" class="mx-3 me-2" d-flex>
+                            <img src=" img/icons8-login.gif " class="top_logo " alt="Saytga Kirish ">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="center_find">
+                <div class="caption_center">
+                    <h4 class="tcaption"></h4>
+                </div>
+                <div class="search_center">
+                    <input type="text" class="search_input__center" placeholder="biror narsa kiriting">
+                    <button class="btn btn-primary btn_position">Qidirish</button>
+                </div>
+                <script src="Js/@2.0.12typed.js"></script>
+                <!-- <script src="Js/mytayped.js"></script> -->
+                <script>
+                    let options = {
+                        strings: ['AndQXAI Tyutorlari xaqidagi', ' web sahifaga xush kelibsiz'],
+                        typeSpeed: 40,
+                        startDelay: 1000,
+                        backSpeed: 40,
+                        backDelay: 2000,
+                        loop: true,
+                        loopCount: Infinity,
+                    };
+                    let typed = new Typed('.tcaption', options);
+                </script>
+            </div>
+            <div class="d-flex justify-content-center mx-3 mt-3">
+                <h6>Fakultetlar</h6>
+                <div class="nav navbar-dark bg- d-flex">
+                    <ul class="nav-tems d-flex">
+                        <li class="btn btn-outline-success  mx-1">
+                            QXMS
+                        </li>
+                        <li class="btn btn-outline-success mx-1">
+                            Agrobiznes
+                        </li>
+                        <li class="btn btn-outline-success mx-1">
+                            Agrobiologiya
+                        </li>
+                        <li class="btn btn-outline-success mx-1">
+                            Gidromelioratsiya
+                        </li>
+                        <li class="btn btn-outline-success mx-1">
+                            Sirtqi
+                        </li>
+                        <li class="btn btn-outline-success mx-1">
+                            Gorodno
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- background -->
+            <div class="containerbck"></div>
+            <!-- background tugadi -->
+
+            <!-- card fakultetlar uchun  -->
+
+            <div class="col-9 d-flex justify-content-center mt-5 margincn">
+
+                <!-- <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card mx-2">
+                            <div class="card-body">
+                                <h6 class="card-title d-flex justify-content-center">Swipper1 Agro biznes</h6>
+                                <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                                <p class="card-text">Agrobiznes fakulteti 2005 yil Tashkil qilingan.</p>
+                                <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card mx-2">
+                            <div class="card-body">
+                                <h6 class="card-title d-flex justify-content-center">Swipper2 Agro biznes</h6>
+                                <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                                <p class="card-text">Agrobiznes fakulteti 2005 yil Tashkil qilingan.</p>
+                                <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish  </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card mx-2">
+                            <div class="card-body">
+                                <h6 class="card-title d-flex justify-content-center">Swipper3 Agro biznes</h6>
+                                <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                                <p class="card-text">Agrobiznes fakulteti 2005 yil Tashkil qilingan.</p>
+                                <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card mx-2">
+                            <div class="card-body">
+                                <h6 class="card-title d-flex justify-content-center">Swipper4 Agro biznes</h6>
+                                <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                                <p class="card-text">Agrobiznes fakulteti 2005 yil Tashkil qilingan.</p>
+                                <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish  </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper1 Agro biznes</h6>
+                                    <img src="img/tutorman5.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Polonchiyev Po'kinchi</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper2 Agro biznes</h6>
+                                    <img src="img/tutorman5.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Bu Kim</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper3 Agro biznes</h6>
+                                    <img src="img/tutorman2.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Yana kimdir</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper4 Agro biznes</h6>
+                                    <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                                    <p class="card-text">Yana bir tutor Vakant</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper1 Agro biznes</h6>
+                                    <img src="img/tutorman5.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Polonchiyev Po'kinchi</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper2 Agro biznes</h6>
+                                    <img src="img/tutorman5.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Bu Kim</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper3 Agro biznes</h6>
+                                    <img src="img/tutorman2.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Yana kimdir</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper4 Agro biznes</h6>
+                                    <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                                    <p class="card-text">Yana bir tutor Vakant</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper1 Agro biznes</h6>
+                                    <img src="img/tutorman5.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Polonchiyev Po'kinchi</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper2 Agro biznes</h6>
+                                    <img src="img/tutorman5.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Bu Kim</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper3 Agro biznes</h6>
+                                    <img src="img/tutorman2.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Yana kimdir</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper4 Agro biznes</h6>
+                                    <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                                    <p class="card-text">Yana bir tutor Vakant</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper1 Agro biznes</h6>
+                                    <img src="img/tutorman5.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Polonchiyev Po'kinchi</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper2 Agro biznes</h6>
+                                    <img src="img/tutorman5.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Bu Kim</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper3 Agro biznes</h6>
+                                    <img src="img/tutorman2.webp" class="img-thumbnail" alt="">
+                                    <p class="card-text">Yana kimdir</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card mx-2">
+                                <div class="card-body">
+                                    <h6 class="card-title d-flex justify-content-center">Swipper4 Agro biznes</h6>
+                                    <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                                    <p class="card-text">Yana bir tutor Vakant</p>
+                                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="card col-2 mx-2">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Agrobiologiya</h6>
+                    <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                    <p class="card-text">Agrobiologiya fakulteti eng katta fakultetlardan biri bo'lib 1960 yilda tashkil qilingan.</p>
+                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish <img src="img/Calendar_20px.png" alt=""> </a>
+                </div>
+            </div>
+            <div class="card col-2 mx-2">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">QXMS</h6>
+                    <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                    <p class="card-text">Agrobiologiya fakulteti eng katta fakultetlardan biri bo'lib 1960 yilda tashkil qilingan.</p>
+                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish <img src="img/Calendar_20px.png" alt=""> </a>
+                </div>
+            </div>
+            <div class="card col-2 mx-2">
+                <div class="card-body">
+                    <h6 class="card-title justify-content-center d-flex">Gidromelioratsiya</h6>
+                    <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                    <p class="card-text">Agrobiologiya fakulteti eng katta fakultetlardan biri bo'lib 1960 yilda tashkil qilingan.</p>
+                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish <img src="img/Calendar_20px.png" alt=""></a>
+                </div>
+            </div>
+            <div class="card col-2 mx-2">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Agrobiologiya</h6>
+                    <img src="img/backimage.jpg" class="img-thumbnail" alt="">
+                    <p class="card-text">Agrobiologiya fakulteti eng katta fakultetlardan biri bo'lib 1960 yilda tashkil qilingan.</p>
+                    <a href="#" class="btn btn-outline-success">To'liq ma'lumot olish <img src="img/Calendar_20px.png" alt=""></a>
+                </div>
+            </div> -->
+            </div>
+
+
+            <!-- card fakultetlar uchun tugadi -->
+
+            <!-- swiper bu yerdan boshlandi -->
+
+            <!-- <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/tutorman2.webp" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/walking.jpg" />
+                    <p>Abdulbosit To'ychiyev</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/tutorman.jpg" />
+                    <p>polonchiyev pokinchi</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/tutorman1.jpg" />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div> -->
+            <div class="faculity_logo_banner">
+                <div class="divflex">
+                    <img src="img/agrobiologiya-1024x682.jpg" alt="" class="faculity_logo">
+                    <p>Agrobiologiya</p>
+                </div>
+                <div class="divflex">
+                    <img src="img/faculty-logo-1-1.png" alt="" class="faculity_logo ">
+                    <p>Yana qaysidur</p>
+                </div>
+                <div class="divflex">
+                    <img src="img/faculty-logo-2-1-1024x1024.png" alt="" class="faculity_logo">
+                    <p>Bitta fakultet</p>
+                </div>
+                <div class="divflex">
+                    <img src="img/faculty-logo-4.png" alt="" class="faculity_logo">
+                    <p>Ikkinchi Fakultet</p>
+                </div>
+                <div class="divflex">
+                    <img src="img/Agro-Gidro.png" alt="" class="faculity_logo">
+                    <p>Uchinchi Fakultet</p>
+                </div>
+
+            </div>
+            <!-- faculity logo baner tugadi -->
+            <!-- <script type="text/javascript">
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cube",
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script> -->
+
+            <script src="Js/swiper.js"></script>
+            <!-- about tutors -->
+
+            <div class="container margintop">
+
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="name_tutor">
+                            <div class="row">
+                                <div class="col-10">
+                                    <h1 class="">To'ychiyev <span class="redcl">Abdulbosit</span> </h1>
+                                </div>
+                                <div class="col-1">
+                                    <img src="img/faculty-logo-4.png" alt="" class="top_logo img-img-fluid">
+                                    <p> Agrokimyo </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <p>--------------------------------------------------------------------------</p>
+
+                            <h6 class="mb-3">Telefon qilish</h6>
+                            <div class="col-2">
+                                <img src="img/Phone_48px.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6">
+                                <p>+998 99 999 2334</p>
+                                <p>+998 99 012 0334</p>
+                            </div>
+
+                            <p>--------------------------------------------------------------------------</p>
+
+                        </div>
+                        <div class="row">
+                            <h6 class="mb-3">Pochta xabarini yuborish</h6>
+                            <div class="col-2">
+                                <img src="img/Group Message_48px.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <p>abdulbosit19980204<span class="mark">@gmail.com</span> </p>
+                                <p>abdulbosit61316<span class="mark">@gmail.com</span> </p>
+                            </div>
+
+                            <p>---------------------------------------------------------------------------</p>
+                            <div class="row">
+                                <h6 class="mb-3">Ijtimoiy tarmoqlarda</h6>
+                                <div class="col-2">
+                                    <img src="img/Telegram App_48px.png" alt="">
+                                </div>
+                                <div class="col-6">
+                                    @abdulbosit_tatu
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="img/Instagram_48px.png" alt="">
+                                </div>
+                                <div class="col-6">
+                                    @abdulbosit_tatu
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="img/LinkedIn_48px.png" alt="">
+                                </div>
+                                <div class="col-6">
+                                    @abdulbosit_tatu
+                                </div>
+                            </div>
+                            <p>---------------------------------------------------------------------------</p>
+
+                            <div class="row">
+                                <h6 class="mb-3">Biriktirilgan Gruppalar</h6>
+                                <div class="col-10">
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">01-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">02-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">03-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">11-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">12-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">21-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">22-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success">109-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success">95-21</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 bg-light mx-0">
+                        <img src="img/Man-PNG-File.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="container margintop">
+
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="name_tutor">
+                            <div class="row">
+                                <div class="col-10">
+                                    <h1 class="">Polonchiyev <span class="redcl">Po'kinchi</span> </h1>
+                                </div>
+                                <div class="col-1">
+                                    <img src="img/faculty-logo-2-1-1024x1024.png" alt="" class="top_logo img-img-fluid">
+                                    <p> Agrobiznes </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <p>--------------------------------------------------------------------------</p>
+
+                            <h6 class="mb-3">Telefon qilish</h6>
+                            <div class="col-2">
+                                <img src="img/Phone_48px.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6">
+                                <p>+998 91 001 0101</p>
+                                <p>+998 99 002 0202</p>
+                            </div>
+
+                            <p>--------------------------------------------------------------------------</p>
+
+                        </div>
+                        <div class="row">
+                            <h6 class="mb-3">Pochta xabarini yuborish</h6>
+                            <div class="col-2">
+                                <img src="img/Group Message_48px.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <p>abdulbosit19980204<span class="mark">@gmail.com</span> </p>
+                                <p>abdulbosit61316<span class="mark">@gmail.com</span> </p>
+                            </div>
+
+                            <p>---------------------------------------------------------------------------</p>
+                            <div class="row">
+                                <h6 class="mb-3">Ijtimoiy tarmoqlarda</h6>
+                                <div class="col-2">
+                                    <img src="img/Telegram App_48px.png" alt="">
+                                </div>
+                                <div class="col-6">
+                                    @abdulbosit_tatu
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="img/Instagram_48px.png" alt="">
+                                </div>
+                                <div class="col-6">
+                                    @abdulbosit_tatu
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="img/LinkedIn_48px.png" alt="">
+                                </div>
+                                <div class="col-6">
+                                    @abdulbosit_tatu
+                                </div>
+                            </div>
+                            <p>---------------------------------------------------------------------------</p>
+
+                            <div class="row">
+                                <h6 class="mb-3">Biriktirilgan Gruppalar</h6>
+                                <div class="col-10">
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">01-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">02-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">03-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">11-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">12-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">21-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success mb-2">22-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success">109-21</span>
+                                    </a>
+                                    <a href="">
+                                        <span class="btn btn-outline-success">95-21</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 bg-light mx-0">
+                        <img src="img/Man-PNG-File.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
